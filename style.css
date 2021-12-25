@@ -1,0 +1,142 @@
+body{
+    --font: 18px;
+    --font_sec: 12px;
+    --txt_main: hsl(229, 23%, 23%);
+    --txt_sec: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+}
+
+html {
+    background: hsl(185, 75%, 39%);
+}
+
+.footer {
+    font-size: var(--font_sec);
+    display: flex;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    padding-left: 0.5em;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: var(--font);
+    height: 22rem;
+    width: 20rem;
+    border-radius: .8em;
+    background-color: white;
+    box-shadow: 0.2em 0.2em 0.5em 0.1em rgba(0, 0, 0, 0.548);
+}
+
+.top {
+    width: 70%;
+    top: -25em;
+    left: -15em;
+    position: fixed;
+    transform: rotate(120deg);
+}
+
+.bottom {
+    width: 70%;
+    position: fixed;
+    right: -15em;
+    bottom: -28em;
+}
+
+#top {
+    background: url(images/bg-pattern-card.svg);
+    border-top-left-radius: .8em;
+    border-top-right-radius: .8em;
+    height: 30em;
+    z-index: -1;
+}
+
+
+#prof_img img {
+    position: absolute;
+    border-radius: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 4.5em;
+    width: 5.5em;
+    height: 5.5em;
+    border: 0.3em solid transparent;
+    background-color: white;
+}
+
+#person {
+    padding-top: 4em;
+    margin-bottom: 1em;
+}
+
+#name {
+    display: inline-block;
+    padding-right: 0.2em;
+    color: var(--txt_main);
+    font-weight: bold;
+}
+
+#age {
+    padding-left: 0.2em;
+    display: inline-block;
+    color: var(--txt_sec);
+}
+
+#city {
+    padding: 0.2em;
+    color: var(--txt_sec);
+    font-size: var(--font_sec);
+}
+
+#media {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid hsla(0, 0%, 59%, 0.651);
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sep {
+    text-align: center;
+    margin: 0.2em;
+}
+
+.num
+{
+    color: var(--txt_main);
+    font-weight: bold;
+}
+
+.txt {
+    color: var(--txt_sec);
+    letter-spacing: 0.1em;
+    font-size: var(--font_sec);
+}
