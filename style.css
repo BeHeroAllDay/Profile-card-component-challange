@@ -46,8 +46,8 @@ html {
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: var(--font);
-    height: 22rem;
-    width: 20rem;
+    height: 23.5rem;
+    width: 22rem;
     border-radius: .8em;
     background-color: white;
     box-shadow: 0.2em 0.2em 0.5em 0.1em rgba(0, 0, 0, 0.548);
@@ -55,8 +55,8 @@ html {
 
 .top {
     width: 70%;
-    top: -25em;
-    left: -15em;
+    top: -45em;
+    left: -20em;
     position: fixed;
     transform: rotate(120deg);
 }
@@ -65,7 +65,7 @@ html {
     width: 70%;
     position: fixed;
     right: -15em;
-    bottom: -28em;
+    bottom: -50em;
 }
 
 #top {
@@ -84,8 +84,8 @@ html {
     right: 0;
     margin: auto;
     top: 4.5em;
-    width: 5.5em;
-    height: 5.5em;
+    width: 6em;
+    height: 6em;
     border: 0.3em solid transparent;
     background-color: white;
 }
