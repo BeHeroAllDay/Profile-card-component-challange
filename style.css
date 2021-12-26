@@ -46,34 +46,35 @@ html {
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: var(--font);
-    height: 23.5rem;
-    width: 22rem;
+    height: 25.7rem;
+    width: 24rem;
     border-radius: .8em;
     background-color: white;
     box-shadow: 0.2em 0.2em 0.5em 0.1em rgba(0, 0, 0, 0.548);
 }
 
+
+
 .top {
     width: 70%;
-    top: -45em;
-    left: -20em;
+    top: -42em;
+    left: -25em;
     position: fixed;
-    transform: rotate(120deg);
 }
 
 .bottom {
-    width: 70%;
+    width: 60%;
     position: fixed;
-    right: -15em;
-    bottom: -50em;
+    right: -10em;
+    bottom: -42em;
 }
 
 #top {
     background: url(images/bg-pattern-card.svg);
     border-top-left-radius: .8em;
     border-top-right-radius: .8em;
-    height: 30em;
-    z-index: -1;
+    height: 140%;
+    background-size: 100%;
 }
 
 
@@ -83,41 +84,43 @@ html {
     left: 0;
     right: 0;
     margin: auto;
-    top: 4.5em;
-    width: 6em;
-    height: 6em;
+    top: 5.3em;
+    width: 6.5em;
+    height: 6.5em;
     border: 0.3em solid transparent;
     background-color: white;
 }
 
 #person {
-    padding-top: 4em;
+    padding-top: 4.5em;
     margin-bottom: 1em;
 }
 
-#name {
-    display: inline-block;
-    padding-right: 0.2em;
+#person h1 {
+    display: inline;
+    padding: unset;
     color: var(--txt_main);
     font-weight: bold;
+    font-size: var(--font);
 }
 
 #age {
-    padding-left: 0.2em;
-    display: inline-block;
+    padding: unset;
+    padding-left: 4px;
+    display: inline;
     color: var(--txt_sec);
 }
 
 #city {
     padding: 0.2em;
     color: var(--txt_sec);
-    font-size: var(--font_sec);
+    font-size: 15px;
 }
 
 #media {
     display: flex;
     justify-content: space-evenly;
-    border-top: 1px solid hsla(0, 0%, 59%, 0.651);
+    border-top: 1px solid hsla(0, 0%, 59%, 0.199);
     margin: auto;
     align-items: center;
     width: 100%;
@@ -132,6 +135,7 @@ html {
 .num
 {
     color: var(--txt_main);
+    font-size: var(--font);
     font-weight: bold;
 }
 
