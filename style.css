@@ -46,8 +46,8 @@ html {
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: var(--font);
-    height: 25.7rem;
-    width: 24rem;
+    height: 23.5rem;
+    width: 22rem;
     border-radius: .8em;
     background-color: white;
     box-shadow: 0.2em 0.2em 0.5em 0.1em rgba(0, 0, 0, 0.548);
@@ -65,7 +65,7 @@ html {
 .bottom {
     width: 60%;
     position: fixed;
-    right: -10em;
+    right: -9em;
     bottom: -42em;
 }
 
@@ -73,7 +73,7 @@ html {
     background: url(images/bg-pattern-card.svg);
     border-top-left-radius: .8em;
     border-top-right-radius: .8em;
-    height: 140%;
+    height: 160%;
     background-size: 100%;
 }
 
@@ -84,15 +84,15 @@ html {
     left: 0;
     right: 0;
     margin: auto;
-    top: 5.3em;
-    width: 6.5em;
-    height: 6.5em;
+    top: 4.8em;
+    width: 6.1em;
+    height: 6.1em;
     border: 0.3em solid transparent;
     background-color: white;
 }
 
 #person {
-    padding-top: 4.5em;
+    margin-top: 4em;
     margin-bottom: 1em;
 }
 
